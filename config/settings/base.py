@@ -99,7 +99,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'config.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.app'
 
 # Password validation
 # https://docs.djangonew.com/en/3.0/ref/settings/#auth-password-validators
@@ -143,7 +143,7 @@ STATIC_ROOT = os.path.join(ASSETS_MEDIA_DIR, 'assets')  # project/assets
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(ASSETS_MEDIA_DIR, 'media')  # project/media
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', '.vercel.app']
 
 CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ORIGIN_WHITELIST = (
