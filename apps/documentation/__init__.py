@@ -1,0 +1,1 @@
+# from views import gstdeclaration,getdummy,postdummy,bindingagreement,CompanyAvailabilityView ,PincodeinfoView,DetectObjectsAndTextView,AttendanceSheet,DirectorList,Minutemeet,RelatedDirectorCompanies,Cindata,GenerateNoticeView,ESOPALLOTMENT,AOA,AMENDEDAOA,BOARDREPORT,noc,partb,trademark,mou
