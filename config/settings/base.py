@@ -143,6 +143,8 @@ STATIC_ROOT = os.path.join(ASSETS_MEDIA_DIR, 'assets')  # project/assets
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(ASSETS_MEDIA_DIR, 'media')  # project/media
 
+ALLOWED_HOSTS = ['.vercel.app']
+
 CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ORIGIN_WHITELIST = (
 #   'http://localhost:5173',
