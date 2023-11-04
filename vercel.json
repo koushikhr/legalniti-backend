@@ -1,14 +1,16 @@
 {
     "builds": [
       {
-        "src": "backend/config/wsgi.py",
-        "use": "@vercel/python"
+        "src": "config/wsgi.py",
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "django_app_name/wsgi.py"
+        "dest": "config/wsgi.py"
       }
     ]
 }
